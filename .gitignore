@@ -123,3 +123,32 @@ fabric.properties
 .idea/caches/build_file_checksums.ser
 
 # End of https://www.toptal.com/developers/gitignore/api/dotnetcore,rider,macos
+
+
+# --------------------------
+# .NET / C# ignores
+# --------------------------
+**/bin/
+**/obj/
+**/.idea/
+*.dll
+*.exe
+*.pdb
+*.cache
+*.user
+*.suo
+*.userosscache
+.vscode/
+.vs/
+**/appsettings.Development.json
+
+# --------------------------
+# Node / React ignores
+# --------------------------
+client/node_modules/
+client/build/
+client/dist/
+client/.env
+npm-debug.log
+yarn-error.log
+
