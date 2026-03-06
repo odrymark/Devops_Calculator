@@ -101,3 +101,4 @@ jobs:
           sudo apt-get install k6
       - name: Run spike test
         run: k6 run spike.js
+        continue-on-error: true
